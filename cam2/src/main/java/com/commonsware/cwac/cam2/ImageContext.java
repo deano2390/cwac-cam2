@@ -43,7 +43,7 @@ public class ImageContext {
   private Bitmap thumbnail;
   private ExifInterface exif;
 
-  ImageContext(Context ctxt, byte[] jpeg) {
+  public ImageContext(Context ctxt, byte[] jpeg) {
     this.ctxt=ctxt.getApplicationContext();
     setJpeg(jpeg);
   }
